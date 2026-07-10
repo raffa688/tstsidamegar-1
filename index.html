@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sida Megar Indah Residence | Perumahan Modern & Mewah</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Miliki hunian impian Anda di Sida Megar Indah Residence. Perumahan eksklusif bergaya modern minimalis, lokasi strategis bebas banjir, keamanan 24 jam, dan fasilitas lengkap. Hubungi kami sekarang!">
+  <meta name="keywords" content="sida megar indah residence, perumahan sida megar indah, perumahan murah, rumah modern minimalis, rumah mewah cilacap, rumah kpr">
+  <meta name="author" content="Sida Megar Indah Residence">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sidamegarresidence.com/">
+  <meta property="og:title" content="Sida Megar Indah Residence | Perumahan Modern & Mewah">
+  <meta property="og:description" content="Miliki hunian impian Anda di Sida Megar Indah Residence. Perumahan eksklusif bergaya modern minimalis dengan fasilitas lengkap.">
+  <meta property="og:image" content="https://sidamegarresidence.com/assets/hero-bg.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://sidamegarresidence.com/">
+  <meta property="twitter:title" content="Sida Megar Indah Residence | Perumahan Modern & Mewah">
+  <meta property="twitter:description" content="Miliki hunian impian Anda di Sida Megar Indah Residence. Perumahan eksklusif bergaya modern minimalis dengan fasilitas lengkap.">
+  <meta property="twitter:image" content="https://sidamegarresidence.com/assets/hero-bg.png">
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css?v=9.0">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       HEADER / NAVIGATION
+       ========================================================================== -->
+  <header class="header" id="header">
+    <div class="container header-container">
+      <a href="#home" class="logo" id="nav-logo">
+        <img src="assets/newlogo2.jpg" alt="Logo Residence" class="logo-img">
+        <span class="logo-text">Sida Megar Indah</span>
+      </a>
+      
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home" class="nav-link">Beranda</a></li>
+        <li><a href="#about" class="nav-link">Tentang Kami</a></li>
+        <li><a href="#ready-home" class="nav-link">Rumah Siap Huni</a></li>
+        <li><a href="#custom-build" class="nav-link">Pesan Bangun</a></li>
+        <li><a href="#facilities" class="nav-link">Fasilitas</a></li>
+        <li><a href="#kpr-section" class="nav-link">Simulasi Pembayaran</a></li>
+        <li><a href="#gallery" class="nav-link">Galeri</a></li>
+        <li><a href="#contact" class="nav-link">Hubungi Kami</a></li>
+      </ul>
+      
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       HERO SECTION
+       ========================================================================== -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <i class="fa-solid fa-circle-check"></i> Perumahan Eksklusif & Terlaris di Kelasnya
+        </div>
+        <h1 class="hero-title">
+          Temukan Hunian Impian <span>Keluarga Modern Anda</span>
+        </h1>
+        <p class="hero-desc">
+          Sida Megar Indah Residence menghadirkan konsep hunian modern tropis yang menggabungkan kenyamanan alami, desain fungsional, dan lokasi super strategis.
+        </p>
+        <div class="hero-buttons">
+          <a href="#ready-home" class="btn btn-secondary"><i class="fa-solid fa-house-circle-check"></i> Lihat Unit Ready</a>
+          <a href="#contact" class="btn btn-outline-white"><i class="fa-solid fa-phone"></i> Konsultasi Gratis</a>
+        </div>
+      </div>
+      
+      <!-- Floating Search Widget -->
+      <div class="search-widget">
+        <form class="search-form" id="search-form" onsubmit="event.preventDefault(); searchProperty();">
+          <div class="search-group">
+            <label for="search-type"><i class="fa-solid fa-house"></i> Tipe Unit</label>
+            <select id="search-type" class="search-input">
+              <option value="all">Semua Tipe</option>
+              <option value="40">Tipe 40</option>
+              <option value="45">Tipe 45</option>
+              <option value="54">Tipe 54</option>
+            </select>
+          </div>
+          <div class="search-group">
+            <label for="search-price"><i class="fa-solid fa-money-bill-wave"></i> Rentang Harga</label>
+            <select id="search-price" class="search-input">
+              <option value="all">Semua Harga</option>
+              <option value="300-500">300jt - 500jt</option>
+              <option value="500-800">500jt - 800jt</option>
+              <option value="800+">> 800jt</option>
+            </select>
+          </div>
+          <div class="search-group">
+            <label for="search-status"><i class="fa-solid fa-circle-info"></i> Status Unit</label>
+            <select id="search-status" class="search-input">
+              <option value="all">Semua Status</option>
+              <option value="ready">Ready Stock</option>
+              <option value="indent">Indent</option>
+            </select>
+          </div>
+          <div class="search-group">
+            <label for="search-beds"><i class="fa-solid fa-bed"></i> Kamar Tidur</label>
+            <select id="search-beds" class="search-input">
+              <option value="all">Semua</option>
+              <option value="2">2 Kamar</option>
+              <option value="3">3 Kamar</option>
+              <option value="4">4 Kamar</option>
+            </select>
+          </div>
+          <button type="submit" id="btn-search">
+            <i class="fa-solid fa-magnifying-glass"></i> Cari
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       ABOUT SECTION
+       ========================================================================== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-images">
+          <img src="assets/hero-bg.png" alt="Sida Megar Indah Exterior" class="about-img-main">
+          <img src="assets/interior.png" alt="Sida Megar Indah Interior" class="about-img-sub">
+          <div class="about-experience">
+            <h3>10+</h3>
+            <p>Tahun Pengalaman Developer Terpercaya</p>
+          </div>
+        </div>
+        
+        <div class="about-content">
+          <span class="section-subtitle">Tentang Kami</span>
+          <h2 class="section-title">Developer Terpercaya Membangun Masa Depan Anda</h2>
+          <p class="about-desc">
+            Perumahan ini dikembangkan oleh developer profesional dengan komitmen penuh pada kualitas bangunan, ketepatan waktu serah terima, dan legalitas yang terjamin. Kami percaya rumah bukan sekadar bangunan fisik, melainkan ruang tempat kebahagiaan keluarga Anda tumbuh.
+          </p>
+          
+          <div class="about-features">
+            <div class="about-feat-item">
+              <div class="about-feat-icon"><i class="fa-solid fa-file-shield"></i></div>
+              <div class="about-feat-text">
+                <h4>Legalitas 100% Aman</h4>
+                <p>Sertifikat Hak Milik (SHM) & IMB sudah pecah per kavling.</p>
+              </div>
+            </div>
+            
+            <div class="about-feat-item">
+              <div class="about-feat-icon"><i class="fa-solid fa-cloud-sun-rain"></i></div>
+              <div class="about-feat-text">
+                <h4>Bebas Banjir</h4>
+                <p>Sistem drainase tertutup modern dan elevasi tanah yang tinggi.</p>
+              </div>
+            </div>
+            
+            <div class="about-feat-item">
+              <div class="about-feat-icon"><i class="fa-solid fa-shield-halved"></i></div>
+              <div class="about-feat-text">
+                <h4>Sistem Keamanan</h4>
+                <p>Cluster satu gerbang dengan penjagaan sekuriti 24 jam & CCTV.</p>
+              </div>
+            </div>
+            
+            <div class="about-feat-item">
+              <div class="about-feat-icon"><i class="fa-solid fa-road"></i></div>
+              <div class="about-feat-text">
+                <h4>Akses Mudah & Lebar</h4>
+                <p>Jalan lingkungan paving block lebar 8 meter untuk kenyamanan Anda.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div>
+            <a href="#contact" class="btn btn-primary"><i class="fa-solid fa-file-invoice"></i> Dapatkan Brosur Lengkap</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       RUMAH SIAP HUNI SECTION
+       ========================================================================== -->
+  <section class="section" id="ready-home">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Siap Menghuni</span>
+        <h2 class="section-title">Rumah Siap Huni - Beli Sekarang Langsung Menghuni</h2>
+        <p class="section-desc">Pilihan unit ready stock yang sudah siap untuk langsung ditempati. Proses pengurusan cepat tanpa menunggu pembangunan.</p>
+      </div>
+
+      <!-- Carousel for Ready Units -->
+      <div class="units-carousel-container">
+        <div class="units-carousel-viewport">
+          <div class="units-carousel-track" id="ready-carousel-track">
+            <!-- Ready Unit 40 -->
+            <div class="unit-slide active" data-price="320000000">
+            <div id="ready-40" class="unit-display">
+              <div class="unit-img-wrapper">
+                <img src="assets/tipe-36.png" alt="Unit Tipe 40 Siap Huni Sida Megar Indah">
+                <span class="unit-tag">Stok Terbatas</span>
+              </div>
+              <div class="unit-info">
+                <h3>Tipe 40 / 80 (Siap Huni)</h3>
+                <div class="unit-price">Rp 320.000.000 <span>*Promo Juli-Agustus</span></div>
+                <a class="floorplan-link" onclick="toggleFloorplan('ready-40')"><i class="fa-solid fa-map"></i> Lihat Denah Ruangan</a>
+
+                <div class="unit-spec-grid">
+                  <div class="unit-spec-item">
+                    <div class="unit-spec-icon"><i class="fa-solid fa-ruler-combined"></i></div>
+                    <div class="unit-spec-detail">
+                      <span>Bangunan/Tanah</span>
+                      <p><span class="spec-building">40</span> m² / <span class="spec-land">80</span> m²</p>
+                    </div>
+                  </div>
+                  <div class="unit-spec-item">
+                    <div class="unit-spec-icon"><i class="fa-solid fa-bed"></i></div>
+                    <div class="unit-spec-detail">
+                      <span>Kamar Tidur</span>
+                      <p>2 Kamar</p>
+                    </div>
+                  </div>
+                  <div class="unit-spec-item">
+                    <div class="unit-spec-icon"><i class="fa-solid fa-bath"></i></div>
+                    <div class="unit-spec-detail">
+                      <span>Kamar Mandi</span>
+                      <p>1 Ruang</p>
+                    </div>
+                  </div>
+                </div>
+
+                <ul class="unit-highlights">
+                  <li><i class="fa-solid fa-circle-check"></i> Rumah sudah finish penuh, siap pakai</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Desain modern minimalis yang elegan</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Finishing interior berkualitas premium</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Langsung bisa melakukan pengurusan akhir</li>
+                </ul>
+
+                <div class="unit-buttons">
+                  <a href="#contact" class="btn btn-primary" onclick="selectUnitContact('Tipe 40 (Siap Huni)')"><i class="fa-brands fa-whatsapp"></i> Hubungi Sales</a>
+                  <a href="#kpr-section" class="btn btn-outline" onclick="loadPriceKPR(320000000)"><i class="fa-solid fa-calculator"></i> Hitung Pembayaran</a>
+                </div>
+
+                <div class="size-selector">
+                  <span class="size-selector-label">Pilih Luas Tanah (m²):</span>
+                  <div class="size-buttons">
+                    <button class="size-btn active" data-price="320000000" onclick="selectLandArea(this, 'ready-40', '80')">80</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Ready Unit 45 -->
+          <div class="unit-slide" data-price="366000000">
+            <div id="ready-45" class="unit-display">
+              <div class="unit-img-wrapper">
+                <img src="assets/tipe-45.png" alt="Unit Tipe 45 Siap Huni Sida Megar Indah">
+                <span class="unit-tag">Tersedia</span>
+              </div>
+              <div class="unit-info">
+                <h3>Tipe 45 / 95 (Siap Huni)</h3>
+                <div class="unit-price">Rp 366.000.000 <span>*Promo Harga</span></div>
+                <a class="floorplan-link" onclick="toggleFloorplan('ready-45')"><i class="fa-solid fa-map"></i> Lihat Denah Ruangan</a>
+
+                <div class="unit-spec-grid">
+                  <div class="unit-spec-item">
+                    <div class="unit-spec-icon"><i class="fa-solid fa-ruler-combined"></i></div>
+                    <div class="unit-spec-detail">
+                      <span>Bangunan/Tanah</span>
+                      <p><span class="spec-building">45</span> m² / <span class="spec-land">95</span> m²</p>
+                    </div>
+                  </div>
+                  <div class="unit-spec-item">
+                    <div class="unit-spec-icon"><i class="fa-solid fa-bed"></i></div>
+                    <div class="unit-spec-detail">
+                      <span>Kamar Tidur</span>
+                      <p>3 Kamar</p>
+                    </div>
+                  </div>
+                  <div class="unit-spec-item">
+                    <div class="unit-spec-icon"><i class="fa-solid fa-bath"></i></div>
+                    <div class="unit-spec-detail">
+                      <span>Kamar Mandi</span>
+                      <p>2 Ruang</p>
+                    </div>
+                  </div>
+                </div>
+
+                <ul class="unit-highlights">
+                  <li><i class="fa-solid fa-circle-check"></i> Rumah sudah finish penuh, siap pakai</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Kamar tidur utama dengan kamar mandi dalam</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Finishing interior berkualitas premium</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Langsung bisa melakukan pengurusan akhir</li>
+                </ul>
+
+                <div class="unit-buttons">
+                  <a href="#contact" class="btn btn-primary" onclick="selectUnitContact('Tipe 45 (Siap Huni)')"><i class="fa-brands fa-whatsapp"></i> Hubungi Sales</a>
+                  <a href="#kpr-section" class="btn btn-outline" onclick="loadPriceKPR(366000000)"><i class="fa-solid fa-calculator"></i> Hitung Pembayaran</a>
+                </div>
+
+                <div class="size-selector">
+                  <span class="size-selector-label">Pilih Luas Tanah (m²):</span>
+                  <div class="size-buttons">
+                    <button class="size-btn active" data-price="366000000" onclick="selectLandArea(this, 'ready-45', '95')">95</button>
+                    <button class="size-btn" data-price="379000000" onclick="selectLandArea(this, 'ready-45', '102')">102</button>
+                    <button class="size-btn" data-price="423000000" onclick="selectLandArea(this, 'ready-45', '125')">125</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Ready Unit 54 -->
+          <div class="unit-slide" data-price="412000000">
+            <div id="ready-54" class="unit-display">
+              <div class="unit-img-wrapper">
+                <img src="assets/tipe-70.png" alt="Unit Tipe 54 Siap Huni Sida Megar Indah">
+                <span class="unit-tag">Eksklusif</span>
+              </div>
+              <div class="unit-info">
+                <h3>Tipe 54 / 103 (Siap Huni)</h3>
+                <div class="unit-price">Rp 412.000.000 <span>*Nego Halus</span></div>
+                <a class="floorplan-link" onclick="toggleFloorplan('ready-54')"><i class="fa-solid fa-map"></i> Lihat Denah Ruangan</a>
+
+                <div class="unit-spec-grid">
+                  <div class="unit-spec-item">
+                    <div class="unit-spec-icon"><i class="fa-solid fa-ruler-combined"></i></div>
+                    <div class="unit-spec-detail">
+                      <span>Bangunan/Tanah</span>
+                      <p><span class="spec-building">54</span> m² / <span class="spec-land">103</span> m²</p>
+                    </div>
+                  </div>
+                  <div class="unit-spec-item">
+                    <div class="unit-spec-icon"><i class="fa-solid fa-bed"></i></div>
+                    <div class="unit-spec-detail">
+                      <span>Kamar Tidur</span>
+                      <p>3 Kamar</p>
+                    </div>
+                  </div>
+                  <div class="unit-spec-item">
+                    <div class="unit-spec-icon"><i class="fa-solid fa-bath"></i></div>
+                    <div class="unit-spec-detail">
+                      <span>Kamar Mandi</span>
+                      <p>2 Ruang</p>
+                    </div>
+                  </div>
+                </div>
+
+                <ul class="unit-highlights">
+                  <li><i class="fa-solid fa-circle-check"></i> Rumah 2 lantai, finishing sempurna siap huni</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Ruang tamu dan ruang keluarga luas</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Interior modern dengan material premium</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Stok sangat terbatas, jangan sampai terlewatkan</li>
+                </ul>
+
+                <div class="unit-buttons">
+                  <a href="#contact" class="btn btn-primary" onclick="selectUnitContact('Tipe 54 (Siap Huni)')"><i class="fa-brands fa-whatsapp"></i> Hubungi Sales</a>
+                  <a href="#kpr-section" class="btn btn-outline" onclick="loadPriceKPR(412000000)"><i class="fa-solid fa-calculator"></i> Hitung Pembayaran</a>
+                </div>
+
+                <div class="size-selector">
+                  <span class="size-selector-label">Pilih Luas Tanah (m²):</span>
+                  <div class="size-buttons">
+                    <button class="size-btn active" data-price="412000000" onclick="selectLandArea(this, 'ready-54', '103')">103</button>
+                    <button class="size-btn" data-price="421000000" onclick="selectLandArea(this, 'ready-54', '108')">108</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Carousel Navigation Controls -->
+        <button class="carousel-btn carousel-prev" id="ready-prev-btn" aria-label="Previous Unit">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button class="carousel-btn carousel-next" id="ready-next-btn" aria-label="Next Unit">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+
+        <!-- Carousel Dots -->
+        <div class="units-carousel-dots" id="ready-carousel-dots">
+          <span class="dot active" onclick="jumpToReadySlide(0)"></span>
+          <span class="dot" onclick="jumpToReadySlide(1)"></span>
+          <span class="dot" onclick="jumpToReadySlide(2)"></span>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Pesan Bangun SECTION
+       ========================================================================== -->
+  <section class="section section-bg-light" id="custom-build">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Inden / Pesan Bangun</span>
+        <h2 class="section-title">Pesan Bangun - Desain Sesuai Keinginan Anda</h2>
+        <p class="section-desc">Pilih tipe unit dengan harga khusus indent, kami akan membangun sesuai spesifikasi dan timeline yang telah disepakati.</p>
+      </div>
+
+      <!-- Carousel for Units -->
+      <div class="units-carousel-container">
+        <div class="units-carousel-viewport">
+          <div class="units-carousel-track" id="units-carousel-track">
+            <!-- Indent Unit 40 -->
+            <div class="unit-slide active" data-price="352000000">
+            <div id="indent-40" class="unit-display">
+              <div class="unit-img-wrapper">
+                <img src="assets/tipe-36.png" alt="Unit Tipe 40 Inden Sida Megar Indah">
+                <span class="unit-tag">Fleksibel</span>
+              </div>
+              <div class="unit-info">
+                <h3>Tipe 40 / 85 (Pesan Bangun)</h3>
+                <div class="unit-price">Mulai Rp 352.000.000 <span>*Inden Eksklusif</span></div>
+                <a class="floorplan-link" onclick="toggleFloorplan('indent-40')"><i class="fa-solid fa-map"></i> Lihat Denah Ruangan</a>
+
+                <div class="unit-spec-grid">
+                  <div class="unit-spec-item">
+                    <div class="unit-spec-icon"><i class="fa-solid fa-ruler-combined"></i></div>
+                    <div class="unit-spec-detail">
+                      <span>Bangunan/Tanah</span>
+                      <p><span class="spec-building">40</span> m² / <span class="spec-land">85</span> m²</p>
+                    </div>
+                  </div>
+                  <div class="unit-spec-item">
+                    <div class="unit-spec-icon"><i class="fa-solid fa-bed"></i></div>
+                    <div class="unit-spec-detail">
+                      <span>Kamar Tidur</span>
+                      <p>2 Kamar</p>
+                    </div>
+                  </div>
+                  <div class="unit-spec-item">
+                    <div class="unit-spec-icon"><i class="fa-solid fa-bath"></i></div>
+                    <div class="unit-spec-detail">
+                      <span>Kamar Mandi</span>
+                      <p>1 Ruang</p>
+                    </div>
+                  </div>
+                </div>
+
+                <ul class="unit-highlights">
+                  <li><i class="fa-solid fa-circle-check"></i> Harga menarik untuk pemesanan dalam jumlah</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Konsultasi gratis desain interior</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Pemantauan berkala progress pembangunan</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Cicilan pembayaran sesuai tahap pembangunan</li>
+                </ul>
+
+                <div class="unit-buttons">
+                  <a href="#contact" class="btn btn-primary" onclick="selectUnitContact('Tipe 40 (Pesan Bangun)')"><i class="fa-brands fa-whatsapp"></i> Hubungi Sales</a>
+                  <a href="#kpr-section" class="btn btn-outline" onclick="loadPriceKPR(352000000)"><i class="fa-solid fa-calculator"></i> Hitung Pembayaran</a>
+                </div>
+
+                <div class="size-selector">
+                  <span class="size-selector-label">Pilih Luas Tanah (m²):</span>
+                  <div class="size-buttons">
+                    <button class="size-btn active" data-price="352000000" onclick="selectLandArea(this, 'indent-40', '85')">85</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Indent Unit 45 -->
+          <div class="unit-slide" data-price="391000000">
+            <div id="indent-45" class="unit-display">
+              <div class="unit-img-wrapper">
+                <img src="assets/tipe-45.png" alt="Unit Tipe 45 Inden Sida Megar Indah">
+                <span class="unit-tag">Fleksibel</span>
+              </div>
+              <div class="unit-info">
+                <h3>Tipe 45 / 95 (Pesan Bangun)</h3>
+                <div class="unit-price">Mulai Rp 391.000.000 <span>*Inden Eksklusif</span></div>
+                <a class="floorplan-link" onclick="toggleFloorplan('indent-45')"><i class="fa-solid fa-map"></i> Lihat Denah Ruangan</a>
+
+                <div class="unit-spec-grid">
+                  <div class="unit-spec-item">
+                    <div class="unit-spec-icon"><i class="fa-solid fa-ruler-combined"></i></div>
+                    <div class="unit-spec-detail">
+                      <span>Bangunan/Tanah</span>
+                      <p><span class="spec-building">45</span> m² / <span class="spec-land">95</span> m²</p>
+                    </div>
+                  </div>
+                  <div class="unit-spec-item">
+                    <div class="unit-spec-icon"><i class="fa-solid fa-bed"></i></div>
+                    <div class="unit-spec-detail">
+                      <span>Kamar Tidur</span>
+                      <p>3 Kamar</p>
+                    </div>
+                  </div>
+                  <div class="unit-spec-item">
+                    <div class="unit-spec-icon"><i class="fa-solid fa-bath"></i></div>
+                    <div class="unit-spec-detail">
+                      <span>Kamar Mandi</span>
+                      <p>2 Ruang</p>
+                    </div>
+                  </div>
+                </div>
+
+                <ul class="unit-highlights">
+                  <li><i class="fa-solid fa-circle-check"></i> Harga menarik untuk pemesanan dalam jumlah</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Konsultasi gratis desain interior</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Pemantauan berkala progress pembangunan</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Cicilan pembayaran sesuai tahap pembangunan</li>
+                </ul>
+
+                <div class="unit-buttons">
+                  <a href="#contact" class="btn btn-primary" onclick="selectUnitContact('Tipe 45 (Pesan Bangun)')"><i class="fa-brands fa-whatsapp"></i> Hubungi Sales</a>
+                  <a href="#kpr-section" class="btn btn-outline" onclick="loadPriceKPR(391000000)"><i class="fa-solid fa-calculator"></i> Hitung Pembayaran</a>
+                </div>
+
+                <div class="size-selector">
+                  <span class="size-selector-label">Pilih Luas Tanah (m²):</span>
+                  <div class="size-buttons">
+                    <button class="size-btn active" data-price="391000000" onclick="selectLandArea(this, 'indent-45', '95')">95</button>
+                    <button class="size-btn" data-price="488000000" onclick="selectLandArea(this, 'indent-45', '96')">96</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Indent Unit 55 -->
+          <div class="unit-slide" data-price="444000000">
+            <div id="indent-55" class="unit-display">
+              <div class="unit-img-wrapper">
+                <img src="assets/tipe-70.png" alt="Unit Tipe 55 Inden Sida Megar Indah">
+                <span class="unit-tag">Premium Indent</span>
+              </div>
+              <div class="unit-info">
+                <h3>Tipe 54 / 100 (Pesan Bangun)</h3>
+                <div class="unit-price">Mulai Rp 444.000.000 <span>*Harga Inden Promo</span></div>
+                <a class="floorplan-link" onclick="toggleFloorplan('indent-55')"><i class="fa-solid fa-map"></i> Lihat Denah Ruangan</a>
+
+                <div class="unit-spec-grid">
+                  <div class="unit-spec-item">
+                    <div class="unit-spec-icon"><i class="fa-solid fa-ruler-combined"></i></div>
+                    <div class="unit-spec-detail">
+                      <span>Bangunan/Tanah</span>
+                      <p><span class="spec-building">54</span> m² / <span class="spec-land">100</span> m²</p>
+                    </div>
+                  </div>
+                  <div class="unit-spec-item">
+                    <div class="unit-spec-icon"><i class="fa-solid fa-bed"></i></div>
+                    <div class="unit-spec-detail">
+                      <span>Kamar Tidur</span>
+                      <p>3 Kamar</p>
+                    </div>
+                  </div>
+                  <div class="unit-spec-item">
+                    <div class="unit-spec-icon"><i class="fa-solid fa-bath"></i></div>
+                    <div class="unit-spec-detail">
+                      <span>Kamar Mandi</span>
+                      <p>2 Ruang</p>
+                    </div>
+                  </div>
+                </div>
+
+                <ul class="unit-highlights">
+                  <li><i class="fa-solid fa-circle-check"></i> Harga menarik untuk pemesanan dalam jumlah</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Konsultasi gratis desain interior</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Pemantauan berkala progress pembangunan</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Cicilan pembayaran sesuai tahap pembangunan</li>
+                </ul>
+
+                <div class="unit-buttons">
+                  <a href="#contact" class="btn btn-primary" onclick="selectUnitContact('Tipe 55 (Pesan Bangun)')"><i class="fa-brands fa-whatsapp"></i> Hubungi Sales</a>
+                  <a href="#kpr-section" class="btn btn-outline" onclick="loadPriceKPR(444000000)"><i class="fa-solid fa-calculator"></i> Hitung Pembayaran</a>
+                </div>
+
+                <div class="size-selector">
+                  <span class="size-selector-label">Pilih Luas Tanah (m²):</span>
+                  <div class="size-buttons">
+                    <button class="size-btn active" data-price="444000000" onclick="selectLandArea(this, 'indent-55', '100')">100</button>
+                    <button class="size-btn" data-price="467000000" onclick="selectLandArea(this, 'indent-55', '116')">116</button>
+                    <button class="size-btn" data-price="469000000" onclick="selectLandArea(this, 'indent-55', '117')">117</button>
+                    <button class="size-btn" data-price="495000000" onclick="selectLandArea(this, 'indent-55', '131')">131</button
+                    >
+                    <button class="size-btn" data-price="526000000" onclick="selectLandArea(this, 'indent-55', '147')">147</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Carousel Navigation Controls -->
+        <button class="carousel-btn carousel-prev" id="units-prev-btn" aria-label="Previous Unit">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button class="carousel-btn carousel-next" id="units-next-btn" aria-label="Next Unit">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+
+        <!-- Carousel Dots -->
+        <div class="units-carousel-dots" id="units-carousel-dots">
+          <span class="dot active" onclick="jumpToUnitSlide(0)"></span>
+          <span class="dot" onclick="jumpToUnitSlide(1)"></span>
+          <span class="dot" onclick="jumpToUnitSlide(2)"></span>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FACILITIES SECTION
+       ========================================================================== -->
+  <section class="section" id="facilities">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Fasilitas Perumahan</span>
+        <h2 class="section-title">Nikmati Kenyamanan Hidup Berkualitas</h2>
+        <p class="section-desc">Fasilitas modern lengkap yang dirancang khusus untuk kenyamanan, interaksi sosial, serta mendukung gaya hidup aktif keluarga Anda.</p>
+      </div>
+      
+      <div class="fac-grid">
+        <div class="fac-card">
+          <div class="fac-icon"><i class="fa-solid fa-user-shield"></i></div>
+          <h3>One Gate System</h3>
+          <p>Akses masuk tunggal dilengkapi pos sekuriti, CCTV 24 jam, dan barrier gate otomatis untuk keamanan ekstra.</p>
+        </div>
+        
+        <div class="fac-card">
+          <div class="fac-icon"><i class="fa-solid fa-swimming-pool"></i></div>
+          <h3>Clubhouse & Kolam Renang</h3>
+          <p>Fasilitas rekreasi eksklusif kolam renang anak & dewasa untuk menjaga kebugaran tubuh keluarga.</p>
+        </div>
+        
+        <div class="fac-card">
+          <div class="fac-icon"><i class="fa-solid fa-mosque"></i></div>
+          <h3>Masjid Cluster</h3>
+          <p>Tempat ibadah yang bersih dan nyaman terletak di pusat cluster untuk kemudahan beribadah setiap hari.</p>
+        </div>
+        
+        <div class="fac-card">
+          <div class="fac-icon"><i class="fa-solid fa-tree"></i></div>
+          <h3>Playground & Green Park</h3>
+          <p>Taman bermain ramah anak dan jogging track hijau teduh untuk bersantai sore hari yang asri.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       PAYMENT SIMULATOR SECTION
+       ========================================================================== -->
+  <section class="section section-bg-light" id="kpr-section">
+    <div class="container">
+      <div class="kpr">
+        <div class="kpr-grid">
+          <div class="kpr-calc-block">
+            <div class="kpr-header">
+              <span class="section-subtitle" style="color: var(--primary-accent)">Simulasi Pembayaran</span>
+              <h2 class="section-title">Hitung Rencana Pembayaran Rumah Impian Anda</h2>
+              <p style="color: var(--text-muted); margin-top: 10px;">Gunakan simulator pembayaran ini untuk menentukan rencana cicilan cash bertahap sesuai kemampuan finansial Anda. Tenor maksimal 5 tahun.</p>
+            </div>
+            
+            <form class="kpr-form" id="kpr-form" oninput="calculateKPR();">
+              <!-- Step 1: Otomatis -->
+              <div class="kpr-field">
+                <label for="kpr-property-price" style="color: var(--primary); font-weight: 600;">1. Harga Rumah (Otomatis)</label>
+                <div class="kpr-input-wrapper">
+                  <span class="kpr-prefix">Rp</span>
+                  <input type="number" id="kpr-property-price" class="kpr-input kpr-input-has-prefix kpr-input-readonly" value="350000000" min="0" step="1000000" readonly style="cursor: default;">
+                </div>
+              </div>
+              
+              <!-- Step 2: Manual -->
+              <div class="kpr-field">
+                <label for="kpr-down-payment" style="color: var(--primary); font-weight: 700;">2. Down Payment (Nominal DP) <span style="color: var(--secondary); font-size: 11px;">[ ISI MANUAL ]</span></label>
+                <div class="kpr-input-wrapper">
+                  <span class="kpr-prefix" style="color: #333;">Rp</span>
+                  <input type="number" id="kpr-down-payment" class="kpr-input kpr-input-has-prefix kpr-input-manual" value="70000000" min="0" step="1000000">
+                </div>
+              </div>
+
+              <!-- Step 3: Otomatis -->
+              <div class="kpr-field">
+                <label style="color: var(--primary); font-weight: 600;">3. Persentase DP (%)</label>
+                <div class="kpr-input-wrapper">
+                  <input type="text" id="kpr-dp-percent-display" class="kpr-input kpr-input-readonly" value="20%" readonly style="cursor: default;">
+                </div>
+              </div>
+
+              <!-- Step 4: Otomatis -->
+              <div class="kpr-field">
+                <label style="color: var(--primary); font-weight: 600;">4. Sisa Pembayaran (Harga - DP)</label>
+                <div class="kpr-input-wrapper">
+                  <span class="kpr-prefix">Rp</span>
+                  <input type="text" id="kpr-loan-amount-display" class="kpr-input kpr-input-has-prefix kpr-input-readonly" value="280.000.000" readonly style="cursor: default;">
+                </div>
+              </div>
+              
+              <!-- Step 5: Manual -->
+              <div class="kpr-field">
+                <label for="kpr-tenure" style="color: var(--primary); font-weight: 700;">5. Jangka Waktu / Tenor (Maks. 60 Bulan) <span style="color: var(--secondary); font-size: 11px;">[ ISI MANUAL ]</span></label>
+                <div class="kpr-input-wrapper">
+                  <input type="number" id="kpr-tenure" class="kpr-input kpr-input-manual kpr-input-has-suffix" value="36" min="1" max="60">
+                  <span style="position: absolute; right: 15px; top: 50%; transform: translateY(-50%); color: #333; font-weight: bold; pointer-events: none;">Bulan</span>
+                </div>
+              </div>
+              <p style="font-size: 11px; color: rgba(255,255,255,0.4); font-style: italic; margin-top: 10px;">
+                * Sistem hitung manual: Sisa Pembayaran ÷ Tenor = Angsuran. Tanpa Bunga.
+              </p>
+            </form>
+          </div>
+          
+          <div class="kpr-output-block">
+            <div class="kpr-output">
+              <span class="kpr-out-title">6. Angsuran Bulanan</span>
+              <div class="kpr-price-display" id="kpr-monthly-payment">Rp 7.777.778</div>
+              <p class="kpr-month">estimasi pembayaran bulanan</p>
+              
+              <ul class="kpr-summary-list">
+                <li class="kpr-sum-item">
+                  <span class="kpr-sum-label">1. Harga Rumah</span>
+                  <span class="kpr-sum-val" id="sum-property-price">Rp 350.000.000</span>
+                </li>
+                <li class="kpr-sum-item">
+                  <span class="kpr-sum-label">2. Down Payment (DP)</span>
+                  <span class="kpr-sum-val" id="sum-down-payment">Rp 70.000.000</span>
+                </li>
+                <li class="kpr-sum-item">
+                  <span class="kpr-sum-label">3. Persentase DP (%)</span>
+                  <span class="kpr-sum-val" id="sum-dp-percent">20%</span>
+                </li>
+                <li class="kpr-sum-item">
+                  <span class="kpr-sum-label">4. Sisa Pembayaran (Harga - DP)</span>
+                  <span class="kpr-sum-val" id="sum-loan-amount">Rp 280.000.000</span>
+                </li>
+                <li class="kpr-sum-item">
+                  <span class="kpr-sum-label">5. Tenor (Bulan)</span>
+                  <span class="kpr-sum-val" id="sum-tenure-months">36 Bulan</span>
+                </li>
+                <li class="kpr-sum-item" style="border-top: 1px dashed rgba(30, 140, 50, 0.2); margin-top: 15px; padding-top: 15px;">
+                  <span class="kpr-sum-label" style="color: var(--primary-accent); font-weight: 700;">6. Angsuran Bulanan</span>
+                  <span class="kpr-sum-val" id="sum-monthly-installment" style="color: var(--primary-accent); font-weight: 700;">Rp 7.777.778 x 36 Bulan</span>
+                </li>
+              </ul>
+              
+              <button class="btn btn-primary" onclick="shareKPRWhatsapp()" style="width: 100%; background-color: var(--secondary); border-color: var(--secondary);">
+                <i class="fa-brands fa-whatsapp"></i> Konsultasi Rencana Pembayaran
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       GALLERY / SLIDER SECTION
+       ========================================================================== -->
+  <section class="section" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Galeri Foto & Showcase</span>
+        <h2 class="section-title">Lihat Lebih Dekat Keindahan Hunian Kami</h2>
+        <p class="section-desc">Eksplorasi kemewahan interior, arsitektur kokoh bangunan, serta keindahan lingkungan taman hijau di sekitar cluster kami.</p>
+      </div>
+      
+      <!-- Gallery Carousel -->
+      <div class="gallery-carousel">
+        <div class="carousel-track" id="carousel-track">
+          
+          <div class="carousel-slide">
+            <img src="assets/hero-bg.png" alt="Eksterior Depan Sida Megar Indah">
+            <div class="carousel-caption">
+              <h3>Tampak Depan Cluster</h3>
+              <p>Desain modern dengan sentuhan tropis yang menyatu harmonis dengan keindahan alam sekitar.</p>
+            </div>
+          </div>
+          
+          <div class="carousel-slide">
+            <img src="assets/interior.png" alt="Living Room Sida Megar Indah">
+            <div class="carousel-caption">
+              <h3>Ruang Keluarga Mewah</h3>
+              <p>Interior luas (void tinggi) memberikan sirkulasi udara optimal dan pencahayaan maksimal.</p>
+            </div>
+          </div>
+          
+          <div class="carousel-slide">
+            <img src="assets/tipe-70.png" alt="Unit Tipe 70 Sida Megar Indah">
+            <div class="carousel-caption">
+              <h3>Tipe 70 Executive Villa</h3>
+              <p>Rumah 2 lantai eksklusif dengan garasi ganda untuk keluarga modern berkelas.</p>
+            </div>
+          </div>
+          
+          <div class="carousel-slide">
+            <img src="assets/tipe-45.png" alt="Unit Tipe 45 Sida Megar Indah">
+            <div class="carousel-caption">
+              <h3>Tipe 45 Modern Family</h3>
+              <p>Hadir dengan fungsionalitas ruang terbaik dan material berkualitas premium.</p>
+            </div>
+          </div>
+          
+        </div>
+        
+        <!-- Controls -->
+        <button class="carousel-btn carousel-prev" id="carousel-prev" aria-label="Slide Sebelumnya"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="carousel-btn carousel-next" id="carousel-next" aria-label="Slide Selanjutnya"><i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+      
+      <!-- Dots -->
+      <div class="carousel-dots" id="carousel-dots">
+        <span class="carousel-dot active" onclick="jumpToSlide(0)"></span>
+        <span class="carousel-dot" onclick="jumpToSlide(1)"></span>
+        <span class="carousel-dot" onclick="jumpToSlide(2)"></span>
+        <span class="carousel-dot" onclick="jumpToSlide(3)"></span>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==========================================================================
+       CONTACT & BOOKING SECTION
+       ========================================================================== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div>
+            <span class="section-subtitle">Hubungi Kami</span>
+            <h2 class="section-title" style="text-align: left;">Mari Berdiskusi Mengenai Hunian Impian Anda</h2>
+            <p class="section-desc" style="margin-top: 12px; margin-bottom: 24px;">Tim pemasaran ahli kami siap membantu menjelaskan detail unit, harga promosi, simulasi cicilan, serta mengatur jadwal survei lokasi perumahan secara mendalam.</p>
+            
+            <ul class="contact-details">
+              <li class="contact-det-item">
+                <div class="contact-det-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="contact-det-text">
+                  <h4>Kantor Pemasaran</h4>
+                  <p>Jl Satria, Tritih Kulon, Kec. Cilacap Utara, Kabupaten Cilacap, Jawa Tengah 53253</p>
+                </div>
+              </li>
+              <li class="contact-det-item">
+                <div class="contact-det-icon"><i class="fa-solid fa-phone"></i></div>
+                <div class="contact-det-text">
+                  <h4>Telepon / WhatsApp</h4>
+                  <p>+62 895-7124-80008 (Layanan Sales)</p>
+                </div>
+              </li>
+              <li class="contact-det-item">
+                <div class="contact-det-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="contact-det-text">
+                  <h4>Email Pemasaran</h4>
+                  <p>info@sidamegarresidence.com</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          
+          <div class="contact-socials-wrapper">
+            <h4 style="margin-bottom: 12px; font-weight: 700; font-size: 15px;">Ikuti Sosial Media Kami:</h4>
+            <div class="contact-socials">
+              <a href="https://www.facebook.com/profile.php?id=61586713584198&locale=id_ID" target="_blank" class="social-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/sidamegarindah/" target="_blank" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://maps.app.goo.gl/yJUWwv9v9PinW83u9" target="_blank" class="social-link" aria-label="Google Maps"><i class="fa-solid fa-location-dot"></i></a>
+              <a href="https://www.tiktok.com/@sidamegarindah" target="_blank" class="social-link" aria-label="Tiktok"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact-card">
+          <h3 style="font-size: 22px; font-weight: 700; margin-bottom: 20px; color: var(--primary);">Formulir Konsultasi / Minat Unit</h3>
+          <form class="contact-form" id="contact-form" onsubmit="submitForm(event)">
+            <div class="form-group">
+              <label for="contact-name">Nama Lengkap</label>
+              <input type="text" id="contact-name" class="form-input" placeholder="Masukkan nama lengkap Anda" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="contact-phone">Nomor WhatsApp</label>
+              <input type="tel" id="contact-phone" class="form-input" placeholder="Contoh: 08123456789" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="contact-unit">Tipe Unit yang Diminati</label>
+              <select id="contact-unit" class="form-input">
+                <option value="">Pilih Tipe Unit</option>
+                <optgroup label="--- Tipe Standar ---">
+                  <option value="Tipe 40 (Standar)">Tipe 40 (Minimalis)</option>
+                  <option value="Tipe 45 (Standar)">Tipe 45 (Family)</option>
+                  <option value="Tipe 70 (Standar)">Tipe 70 (Luxury)</option>
+                </optgroup>
+                <optgroup label="--- Rumah Siap Huni ---">
+                  <option value="Tipe 40 (Siap Huni)">Tipe 40 (Siap Huni)</option>
+                  <option value="Tipe 45 (Siap Huni)">Tipe 45 (Siap Huni)</option>
+                  <option value="Tipe 54 (Siap Huni)">Tipe 54 (Siap Huni)</option>
+                </optgroup>
+                <optgroup label="--- Pesan Bangun ---">
+                  <option value="Tipe 40 (Pesan Bangun)">Tipe 40 (Pesan Bangun)</option>
+                  <option value="Tipe 45 (Pesan Bangun)">Tipe 45 (Pesan Bangun)</option>
+                  <option value="Tipe 55 (Pesan Bangun)">Tipe 55 (Pesan Bangun)</option>
+                </optgroup>
+                <option value="Umum/Tanya">Lainnya / Hanya Konsultasi</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="contact-message">Pesan / Pertanyaan</label>
+              <textarea id="contact-message" class="form-input" placeholder="Tuliskan pertanyaan Anda mengenai spesifikasi rumah, promo diskon, jadwal kunjungan, dll."></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-secondary" style="width: 100%;">
+              <i class="fa-brands fa-whatsapp"></i> Kirim Form via WhatsApp
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-about">
+          <a href="#home" class="logo" style="margin-bottom: 20px;">
+            <img src="assets/newlogo2.jpg" alt="Logo Residence" class="logo-img" style="height: 30px;">
+            <span class="logo-text" style="color: var(--white); font-weight: 700; font-size: 1.2rem;">Sida Megar Indah</span>
+          </a>
+          <p>Berkomitmen menghadirkan produk perumahan berkualitas terbaik, mengutamakan kenyamanan keluarga Anda dengan harga yang wajar dan investasi masa depan yang cemerlang.</p>
+          <div class="footer-socials" style="margin-top: 20px; display: flex; gap: 15px;">
+            <a href="https://www.instagram.com/sidamegarindah/" target="_blank" style="color: var(--white); font-size: 18px; transition: var(--transition-fast); opacity: 0.8;" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61586713584198&locale=id_ID" target="_blank" style="color: var(--white); font-size: 18px; transition: var(--transition-fast); opacity: 0.8;" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.tiktok.com/@sidamegarindah" target="_blank" style="color: var(--white); font-size: 18px; transition: var(--transition-fast); opacity: 0.8;" title="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://maps.app.goo.gl/yJUWwv9v9PinW83u9" target="_blank" style="color: var(--white); font-size: 18px; transition: var(--transition-fast); opacity: 0.8;" title="Google Maps"><i class="fa-solid fa-location-dot"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Tautan Cepat</h3>
+          <ul class="footer-links">
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#about">Tentang Kami</a></li>
+            <li><a href="#ready-home">Rumah Siap Huni</a></li>
+            <li><a href="#custom-build">Pesan Bangun</a></li>
+            <li><a href="#facilities">Fasilitas Cluster</a></li>
+            <li><a href="#kpr-section">Simulasi Pembayaran</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Layanan Kami</h3>
+          <ul class="footer-links">
+            <li><a href="#ready-home">Unit Ready Stock</a></li>
+            <li><a href="#custom-build">Pesan Bangun (Indent)</a></li>
+            <li><a href="#kpr-section">Simulator Cicilan</a></li>
+            <li><a href="#gallery">Galeri Foto</a></li>
+            <li><a href="#contact">Konsultasi Gratis</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Jam Layanan</h3>
+          <ul class="footer-links" style="font-size: 14px; line-height: 1.8;">
+            <li><span style="color: var(--white); font-weight: 600;">Senin - Jumat:</span> 08.00 - 17.00 WIB</li>
+            <li><span style="color: var(--white); font-weight: 600;">Sabtu - Minggu:</span> 09.00 - 16.00 WIB</li>
+            <li><span style="color: var(--white); font-weight: 600;">Survei Lokasi:</span> Hubungi terlebih dahulu untuk pemesanan jadwal bersama sales kami.</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026. Hak Cipta Dilindungi Undang-Undang.</p>
+        <div class="footer-legal">
+          <a href="#">Kebijakan Privasi</a>
+          <a href="#">Syarat & Ketentuan</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Floating Button -->
+  <a href="https://wa.me/62895712480008?text=Halo%20Sida%20Megar%20Indah%20Residence%2C%20saya%20tertarik%20dengan%20proyek%20perumahan%20Anda." target="_blank" class="floating-whatsapp" aria-label="Hubungi kami via WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Floor Plan Modal Overlay (Hidden by Default) -->
+  <div id="floorplan-modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.8); z-index: 10000; align-items: center; justify-content: center; padding: 24px;">
+    <div style="background-color: var(--white); border-radius: var(--border-radius); max-width: 600px; width: 100%; padding: 30px; position: relative; box-shadow: var(--shadow-xl);">
+      <button onclick="closeFloorplanModal()" style="position: absolute; top: 15px; right: 15px; background: none; border: none; font-size: 24px; cursor: pointer; color: var(--text-muted);"><i class="fa-solid fa-xmark"></i></button>
+      <h3 id="modal-title" style="font-family: var(--font-serif); font-size: 24px; margin-bottom: 20px; color: var(--primary);">Denah Rumah</h3>
+      <div id="modal-body-svg" style="display: flex; justify-content: center; align-items: center; border: 1px solid var(--border-color); border-radius: var(--border-radius-sm); padding: 20px; background-color: var(--bg-light); min-height: 300px;">
+        <!-- Dynamic floorplan SVG will be loaded here -->
+      </div>
+      <div id="modal-block-info" style="margin-top: 15px; text-align: center; font-weight: 700; color: var(--primary-accent); font-size: 18px; background: rgba(30, 107, 55, 0.05); padding: 10px; border-radius: 8px; border: 1px dashed var(--primary-accent);"></div>
+      <p style="font-size: 13px; color: var(--text-muted); text-align: center; margin-top: 15px;">*Ilustrasi denah dapat berubah sewaktu-waktu tergantung kesepakatan pembeli dan developer.</p>
+    </div>
+  </div>
+
+  <!-- Custom JavaScript -->
+  <script src="script.js?update=final_v2"></script>
+</body>
+</html>
